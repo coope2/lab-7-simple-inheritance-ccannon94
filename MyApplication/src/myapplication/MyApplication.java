@@ -5,6 +5,8 @@
  */
 package myapplication;
 
+import java.util.Scanner;
+
 /**
  *
  * @author CCannon
@@ -16,6 +18,11 @@ public class MyApplication {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter an input: ");
+        int input = keyboard.nextInt();
+        
+        System.out.println(input * 5);
     }
     
 }
