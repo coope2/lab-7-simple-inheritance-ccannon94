@@ -23,6 +23,7 @@ public class MyApplication {
         int input = keyboard.nextInt();
         
         System.out.println(input * 5);
+
     }
     
 }
